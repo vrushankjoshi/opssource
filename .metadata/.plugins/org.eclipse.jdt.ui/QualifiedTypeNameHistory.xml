@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.kafka.consumer.KafkaProducer"/>
+<fullyQualifiedTypeName name="org.apache.kafka.clients.producer.KafkaProducer"/>
+<fullyQualifiedTypeName name="org.apache.commons.math3.ml.clustering.Cluster"/>
+<fullyQualifiedTypeName name="com.datastax.driver.core.Cluster.Builder"/>
+<fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
+<fullyQualifiedTypeName name="com.auth.service.UserService"/>
+<fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.springframework.http.HttpEntity"/>
+<fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+<fullyQualifiedTypeName name="com.auth.dao.LoginHistoryDAO"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.web.ServerProperties.Session"/>
+<fullyQualifiedTypeName name="com.datastax.driver.core.querybuilder.QueryBuilder"/>
+<fullyQualifiedTypeName name="com.datastax.driver.core.querybuilder.Select.Selection"/>
+<fullyQualifiedTypeName name="com.datastax.driver.core.ResultSet"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+</qualifiedTypeNameHistroy>

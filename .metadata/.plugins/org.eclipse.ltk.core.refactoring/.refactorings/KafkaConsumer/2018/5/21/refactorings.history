@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.kafka.consumer.KafkaConsumer&apos; to &apos;MyKafkaConsumer&apos;&#x0D;&#x0A;- Original project: &apos;KafkaConsumer&apos;&#x0D;&#x0A;- Original element: &apos;com.kafka.consumer.KafkaConsumer&apos;&#x0D;&#x0A;- Renamed element: &apos;com.kafka.consumer.MyKafkaConsumer&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;KafkaConsumer&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.kafka.consumer{KafkaConsumer.java[KafkaConsumer" matchStrategy="1" name="MyKafkaConsumer" qualified="false" references="true" similarDeclarations="false" stamp="1526841049980" textual="false" version="1.0"/>
+</session>
