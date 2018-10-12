@@ -5,5 +5,7 @@ D:\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2007133745.in
 \spring2-mvc-xml-hello-world\src\main\java
 D:\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1708794818.index
 \springweb\src\main\java
+D:\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3064795932.index
+\spring-mvc-example\src\main\java
 D:\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\47950633.index
 \testweb\src

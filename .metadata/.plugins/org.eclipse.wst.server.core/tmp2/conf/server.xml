@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\springweb" path="/springweb" reloadable="true" source="org.eclipse.jst.j2ee.server:springweb"/><Context docBase="D:\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\website" path="/website" reloadable="true" source="org.eclipse.jst.jee.server:website"/><Context docBase="D:\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\springmvc" path="/springmvc" reloadable="true" source="org.eclipse.jst.j2ee.server:springmvc"/></Host>
+      <Context docBase="D:\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\springweb" path="/springweb" reloadable="true" source="org.eclipse.jst.j2ee.server:springweb"/><Context docBase="D:\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\website" path="/website" reloadable="true" source="org.eclipse.jst.jee.server:website"/><Context docBase="D:\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\spring-mvc-example" path="/spring-mvc-example" reloadable="true" source="org.eclipse.jst.jee.server:spring-mvc-example"/></Host>
     </Engine>
   </Service>
 </Server>

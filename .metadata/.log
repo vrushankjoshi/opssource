@@ -11063,3 +11063,267 @@ Caused by: java.net.UnknownHostException: github.com
 
 !ENTRY org.eclipse.egit.ui 4 0 2018-10-12 09:29:00.450
 !MESSAGE Can't connect to any repository: https://github.com/vrushankjoshi/opssource.git (https://github.com/vrushankjoshi/opssource.git: cannot open git-receive-pack)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-10-12 12:29:01.371
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-10-12 12:29:01.392
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:30:24.217
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:30:24.300
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2018-10-12 12:30:39.870
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-10-12 12:30:39.872
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:31:29.905
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:31:29.936
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-10-12 12:32:00.619
+!MESSAGE Several ports (8015, 7070, 8019) required by Tomcat v8.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 2 0 2018-10-12 12:42:17.074
+!MESSAGE Cannot add modules because there is no runtime associated with the server.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-10-12 12:42:18.727
+!MESSAGE Launch configuration HelloWorldControllerTest (1) references non-existing project springmvc.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration HelloWorldControllerTest (1) references non-existing project springmvc.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-10-12 12:42:18.727
+!MESSAGE Launch configuration HelloWorldControllerTest (1) references non-existing project springmvc.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-10-12 12:42:18.730
+!MESSAGE Launch configuration HelloWorldControllerTest (1) references non-existing project springmvc.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration HelloWorldControllerTest (1) references non-existing project springmvc.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-10-12 12:42:18.730
+!MESSAGE Launch configuration HelloWorldControllerTest (1) references non-existing project springmvc.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-10-12 12:42:18.735
+!MESSAGE Launch configuration HelloWorldControllerTest (1) references non-existing project springmvc.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration HelloWorldControllerTest (1) references non-existing project springmvc.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-10-12 12:42:18.735
+!MESSAGE Launch configuration HelloWorldControllerTest (1) references non-existing project springmvc.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:43:52.291
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:43:52.293
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:50:08.792
+!MESSAGE The POM for junit:junit:jar:4.1.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:50:08.859
+!MESSAGE The POM for org.springframework:spring-test:jar:${spring.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:50:09.984
+!MESSAGE The POM for junit:junit:jar:4.1.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:50:09.986
+!MESSAGE The POM for org.springframework:spring-test:jar:${spring.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:50:11.102
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:50:11.117
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:50:11.133
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:50:46.487
+!MESSAGE The POM for junit:junit:jar:4.1.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:50:46.541
+!MESSAGE The POM for org.springframework:spring-test:jar:${spring.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:50:46.696
+!MESSAGE The POM for junit:junit:jar:4.1.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:50:46.696
+!MESSAGE The POM for org.springframework:spring-test:jar:${spring.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:50:47.793
+!MESSAGE The POM for junit:junit:jar:4.1.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:50:47.795
+!MESSAGE The POM for org.springframework:spring-test:jar:${spring.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:51:01.299
+!MESSAGE The POM for junit:junit:jar:4.1.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:51:01.315
+!MESSAGE The POM for org.springframework:spring-test:jar:${spring.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:51:01.379
+!MESSAGE The POM for junit:junit:jar:4.1.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:51:01.380
+!MESSAGE The POM for org.springframework:spring-test:jar:${spring.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:51:02.108
+!MESSAGE The POM for junit:junit:jar:4.1.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:51:02.108
+!MESSAGE The POM for org.springframework:spring-test:jar:${spring.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:51:05.466
+!MESSAGE The POM for junit:junit:jar:4.1.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:51:05.472
+!MESSAGE The POM for org.springframework:spring-test:jar:${spring.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:51:05.496
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:51:05.496
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:51:05.496
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:52:55.270
+!MESSAGE The POM for junit:junit:jar:4.1.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:52:58.487
+!MESSAGE The POM for junit:junit:jar:4.1.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:52:59.162
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:52:59.164
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:52:59.169
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:54:33.187
+!MESSAGE The POM for junit:junit:jar:4.1.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:54:33.439
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:54:33.439
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:55:41.524
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:55:41.524
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:55:41.539
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:55:50.407
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 12:55:50.407
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 13:00:38.064
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 13:00:38.067
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.server.tomcat.core 2 0 2018-10-12 13:01:15.176
+!MESSAGE Cannot add modules because there is no runtime associated with the server.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 2 0 2018-10-12 13:02:34.340
+!MESSAGE Cannot add modules because there is no runtime associated with the server.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 2 0 2018-10-12 13:03:15.771
+!MESSAGE Cannot add modules because there is no runtime associated with the server.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 13:03:54.582
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 13:03:54.584
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 13:03:59.915
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-12 13:03:59.931
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
