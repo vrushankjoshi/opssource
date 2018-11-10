@@ -1,6 +1,6 @@
 version: "3.3"
 services:
   userexample:
-        image: userexample-image:latest
+        image: vrushankjoshi/userexample-image:latest
         ports:
             - "9042:8080"
