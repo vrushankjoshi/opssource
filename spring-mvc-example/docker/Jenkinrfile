@@ -1,0 +1,92 @@
+node {
+	def app
+
+	environment {
+		registry = "vrushankjoshi/userexample-image"
+		registryCredential = 'github-credentials'
+    }
+  
+	stage('Clone repository') {
+		/* Let's make sure we have the repository cloned to our workspace */
+		git credentialsId: '8680cf6e-40ce-4773-8263-a470ff722709', url: 'https://github.com/vrushankjoshi/opssource.git'
+
+	}
+
+	stage('prepare Build') {
+		/* This builds the actual image; synonymous to
+		 * docker build on the command line */
+		dir( "./spring-mvc-example" ) {
+			withMaven( maven : 'maven' ) {
+				
+			 bat 'mvn clean install'
+			}
+		}
+		
+	}
+
+	stage('Execute jUnit Test Cases') {
+		/* Ideally, we would run a test framework against our image.
+		 * For this example, we're using a Volkswagen-type approach ;-) */
+		dir( "./spring-mvc-example" ) {
+		
+			bat 'mvn test'
+
+		}
+		
+	}
+	
+	
+	stage('Sonar Analysis') {
+		echo 'Executing Sonar analysis'
+		
+		 dir( "./spring-mvc-example" ) {
+			withMaven( maven : 'maven' ) {
+					bat 'mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=c84935965731164fe2760720fc040ae360fd3b23'
+			}
+		}
+	}
+	
+	stage ('Prepare Executable file') {
+		echo 'execute command for preparing executable file'
+		dir( "./spring-mvc-example" ) {
+			withMaven( maven : 'maven' ) {
+				bat 'mvn clean install'
+				echo 'executable file created'
+				bat "copy .\\target\\userexample.war .\\docker\\"
+				echo 'execute command - copy ./target/userexample.war ./docker/ <======= COMPLETED'
+			}
+		}
+	}
+	
+	stage ('Build image') {
+		echo '***************************************Build image using dockerfile***************************************'
+		dir( "./spring-mvc-example/docker/" ) {
+			echo '$$$$$$$$$$$$$$$$$$$Before executing build image'
+			
+			bat "docker build -t vrushankjoshi/userexample-image:latest -f Dockerfile ."
+			
+			echo '$$$$$$$$$$$$$$$$$$$ BEFORE pushing image'
+			
+		}
+	}
+	
+   
+	stage ('Run on Development') {
+		echo '*************************************** Run on Development ***************************************'
+		
+		dir( "./spring-mvc-example" ) {
+			echo '@@@@@@@@@@@@@@@@@ COPYING FILE '
+		    bat "copy .\\target\\userexample.war  C:\\apache-tomcat-8.0.52\\webapps\\userexample.war"
+			
+			echo '@@@@@@@@@@@@@@@@@ Stopping instance - NOT AVAILABLE AS OF NOW'
+			
+			
+			echo '@@@@@@@@@@@@@@@@@ RUNNING DOCKER ON 9042 PORT -- docker run -d -p 9042:8080 --name userexample vrushankjoshi/userexample-image:latest'
+			bat "docker run -d -p 9042:8080 --name userexample vrushankjoshi/userexample-image:latest"
+			echo '############################ running on development machine completed...'
+		
+		}
+		
+		/*bat "docker run -p 9042:9042 --name spring-mvc-example-service vrushankjoshi/spring-mvc-example-service:latest" */
+	}
+}
