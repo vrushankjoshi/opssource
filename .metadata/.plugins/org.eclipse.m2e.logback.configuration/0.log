@@ -5936,3 +5936,45 @@ org.eclipse.core.runtime.CoreException: Launch configuration HelloWorldControlle
 2018-10-12 13:03:59,931 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspace\spring-mvc-example\src\test\resources
 2018-11-04 20:06:07,070 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2018-11-10 17:37:09,122 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-11-10 17:41:45,897 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-11-10 17:44:39,794 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.journaldev.spring.mvc:spring-mvc-example:1.0 @ D:\workspace\spring-mvc-example\pom.xml.
+2018-11-10 17:44:42,961 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-10 17:44:42,962 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspace\spring-mvc-example\src\main\resources
+2018-11-10 17:44:42,965 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-10 17:44:42,966 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspace\spring-mvc-example\src\test\resources
+2018-11-10 17:45:54,762 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-mvc-example
+2018-11-10 17:45:54,825 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for website
+2018-11-10 17:46:32,876 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-11-10 17:46:33,269 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.journaldev.spring.mvc:spring-mvc-example:1.0 @ D:\workspace\spring-mvc-example\pom.xml.
+2018-11-10 17:46:34,099 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-mvc-example/src/main/java
+2018-11-10 17:46:34,100 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-mvc-example/src/test/java
+2018-11-10 17:46:54,261 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-mvc-example
+2018-11-10 17:46:54,264 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 21 sec
+2018-11-10 17:46:59,901 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-10 17:46:59,907 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspace\spring-mvc-example\src\main\resources
+2018-11-10 17:46:59,909 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-10 17:46:59,910 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspace\spring-mvc-example\src\test\resources
+2018-11-10 17:46:59,910 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-mvc-example
+2018-11-10 17:46:59,911 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-mvc-example
+2018-11-10 17:46:59,957 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-10 17:47:36,183 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-11-10 17:47:37,267 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CassandraConnector:CassandraConnector:0.0.1-SNAPSHOT @ D:\workspace\CassandraConnector\pom.xml.
+2018-11-10 17:47:37,800 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.journaldev.spring.mvc:spring-mvc-example:1.0 @ D:\workspace\spring-mvc-example\pom.xml.
+2018-11-10 17:47:39,647 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CassandraConnector/src
+2018-11-10 17:47:39,647 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /CassandraConnector/src/test/java because it overlaps with /CassandraConnector/src
+2018-11-10 17:47:39,980 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-mvc-example/src/main/java
+2018-11-10 17:47:39,981 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-mvc-example/src/test/java
+2018-11-10 17:47:40,700 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-mvc-example
+2018-11-10 17:47:40,705 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2018-11-10 17:47:47,144 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-10 17:47:47,151 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspace\spring-mvc-example\src\main\resources
+2018-11-10 17:47:47,155 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-10 17:47:47,156 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspace\spring-mvc-example\src\test\resources
+2018-11-10 17:47:47,156 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-mvc-example
+2018-11-10 17:47:47,156 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-mvc-example
+2018-11-10 17:47:47,162 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-10 17:49:18,023 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\workspace\spring-mvc-example
+2018-11-10 17:49:18,024 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-11-10 17:49:31,125 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-11-10 17:49:41,502 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\workspace\spring-mvc-example
+2018-11-10 17:49:41,502 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
