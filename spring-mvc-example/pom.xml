@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.journaldev.spring.mvc</groupId>
-	<artifactId>spring-mvc-example</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>userexample</artifactId>
+	<version>1.0</version>
 	<packaging>war</packaging>
-	<name>Spring MVC Example</name>
+	<name>user</name>
 	<description>Spring MVC Hello World Example</description>
 
 	<!-- Add Spring Web and MVC dependencies -->

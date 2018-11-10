@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <server port="8080">
-  <module context="helloworld" name="helloworld" path="D:/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/helloworld" type="static"/>
+  <module name="helloworld" path="D:/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/helloworld" type="static"/>
+  <module context="spring-mvc-example" name="spring-mvc-example" path="D:/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/spring-mvc-example" type="j2ee"/>
 </server>

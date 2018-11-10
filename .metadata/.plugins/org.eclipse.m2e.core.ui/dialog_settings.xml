@@ -37,6 +37,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\VrushankJoshi\Downloads\spring-mvc-example"/>
+			<item value="C:\Users\VrushankJoshi\Downloads\spring-mvc-example\spring-mvc-example"/>
 			<item value="D:\workspace"/>
 			<item value="C:\Users\VrushankJoshi\Downloads\spring2-mvc-xml-hello-world\springmvc"/>
 			<item value="C:\Users\VrushankJoshi\Downloads\spring2-mvc-xml-hello-world\spring2-mvc-xml"/>

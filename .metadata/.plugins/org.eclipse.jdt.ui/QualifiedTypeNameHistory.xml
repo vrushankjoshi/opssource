@@ -7,7 +7,6 @@
 <fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
 <fullyQualifiedTypeName name="com.auth.service.UserService"/>
 <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="org.springframework.http.HttpEntity"/>
 <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
@@ -18,4 +17,7 @@
 <fullyQualifiedTypeName name="com.datastax.driver.core.querybuilder.Select.Selection"/>
 <fullyQualifiedTypeName name="com.datastax.driver.core.ResultSet"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.mkyong.common.service.HelloWorldService"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
