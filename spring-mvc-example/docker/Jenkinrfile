@@ -70,19 +70,27 @@ node {
 		}
 	}
 	
+	stage ('Stop container') {
+		
+		echo '@@@@@@@@@@@@@@@@@ Stopping instance - NOT AVAILABLE AS OF NOW'
+			
+		dir( "./spring-mvc-example" ) {
+			bat "docker-compose down"
+		}
+   }
+	
+	
    
 	stage ('Run on Development') {
 		echo '*************************************** Run on Development ***************************************'
 		
 		dir( "./spring-mvc-example" ) {
-			echo '@@@@@@@@@@@@@@@@@ COPYING FILE '
-		    bat "copy .\\target\\userexample.war  C:\\apache-tomcat-8.0.52\\webapps\\userexample.war"
-			
-			echo '@@@@@@@@@@@@@@@@@ Stopping instance - NOT AVAILABLE AS OF NOW'
 			
 			
-			echo '@@@@@@@@@@@@@@@@@ RUNNING DOCKER ON 9042 PORT -- docker run -d -p 9042:8080 --name userexample vrushankjoshi/userexample-image:latest'
-			bat "docker run -d -p 9042:8080 --name userexample vrushankjoshi/userexample-image:latest"
+			echo '@@@@@@@@@@@@@@@@@ RUNNING DOCKER ON 9042 PORT -- docker run -d -p 9042:8080 --name userexample vrushankjoshi/userexample-image:latest' 
+			
+			bat "docker-compose up -d"
+			/*bat "docker run -d -p 9042:8080 --name userexample vrushankjoshi/userexample-image:latest"*/
 			echo '############################ running on development machine completed...'
 		
 		}
